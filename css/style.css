@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  width: 200px;
+  height: 60px;
+  display: inline-block;
+  padding: 20px 20px;
+  border: solid 1px rgb(53, 54, 54);
+  background-color: rgb(117, 119, 114);
+  color: white;
+}
+
+a:hover {
+  background-color: rgb(221, 140, 19);
+  border: solid 1px rgb(53, 54, 54);
+}
+
+li:hover > ul {
+  display: block;
+}
+
+.main-page {
+  margin: 30px 0px 0px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-nested-in,
+.menu-nested {
+  position: absolute;
+  display: none;
+}
+
+.menu-nested-in {
+  z-index: 1;
+  top: 5px;
+  left: 94%;
+}
+
+.menu-nested li {
+  position: relative;
+}
